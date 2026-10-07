@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "question": "How many distinct orders are there in the orders table?",
+  "status": "answered",
+  "result": 400,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders.csv before counting.",
+    "No date parsing needed for this count."
+  ],
+  "code_file": "outputs\\q2.py",
+  "attempts": 1
+}

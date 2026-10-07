@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "question": "How many refund records are there in total?",
+  "status": "answered",
+  "result": 43,
+  "reason": "",
+  "assumptions": [
+    "No duplicate rows in refunds.csv; none removed.",
+    "All rows have valid data for counting; no rows excluded."
+  ],
+  "code_file": "outputs\\q4.py",
+  "attempts": 1
+}

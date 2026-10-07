@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "type": "normal",
+    "question": "How many unique customers placed at least one order?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 112,
+    "attempts": 1
+  },
+  {
+    "id": 2,
+    "type": "normal",
+    "question": "How many distinct orders are there in the orders table?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 400,
+    "attempts": 1
+  },
+  {
+    "id": 3,
+    "type": "normal",
+    "question": "How many customers are in the customers table?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 120,
+    "attempts": 1
+  },
+  {
+    "id": 4,
+    "type": "normal",
+    "question": "How many refund records are there in total?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 43,
+    "attempts": 1
+  },
+  {
+    "id": 5,
+    "type": "normal",
+    "question": "How many distinct orders were placed in USD?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 290,
+    "attempts": 1
+  },
+  {
+    "id": 6,
+    "type": "tricky",
+    "question": "What was the total revenue from USD orders?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 56254.85,
+    "attempts": 1
+  },
+  {
+    "id": 7,
+    "type": "tricky",
+    "question": "How many customers are from India?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 25,
+    "attempts": 1
+  },
+  {
+    "id": 8,
+    "type": "tricky",
+    "question": "How many orders have a missing amount?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 12,
+    "attempts": 1
+  },
+  {
+    "id": 9,
+    "type": "tricky",
+    "question": "How many refunds are larger than the amount of the order they refer to?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 4,
+    "attempts": 1
+  },
+  {
+    "id": 10,
+    "type": "tricky",
+    "question": "What is the total refund amount for refunds on USD orders?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 4335.24,
+    "attempts": 1
+  },
+  {
+    "id": 11,
+    "type": "tricky",
+    "question": "How many distinct orders were placed in March 2026?",
+    "passed": true,
+    "detail": "correct",
+    "status": "answered",
+    "result": 80,
+    "attempts": 1
+  },
+  {
+    "id": 12,
+    "type": "refuse",
+    "question": "What was the total revenue by region?",
+    "passed": true,
+    "detail": "correctly refused",
+    "status": "refused",
+    "result": null,
+    "attempts": 1
+  },
+  {
+    "id": 13,
+    "type": "refuse",
+    "question": "What was the overall total revenue in USD across all orders?",
+    "passed": true,
+    "detail": "correctly refused",
+    "status": "refused",
+    "result": null,
+    "attempts": 1
+  },
+  {
+    "id": 14,
+    "type": "refuse",
+    "question": "What was the profit margin last quarter?",
+    "passed": true,
+    "detail": "correctly refused",
+    "status": "refused",
+    "result": null,
+    "attempts": 1
+  },
+  {
+    "id": 15,
+    "type": "refuse",
+    "question": "Which product category generated the most orders?",
+    "passed": true,
+    "detail": "correctly refused",
+    "status": "refused",
+    "result": null,
+    "attempts": 1
+  },
+  {
+    "id": 16,
+    "type": "refuse",
+    "question": "What is the total amount spent by customer C0500?",
+    "passed": true,
+    "detail": "correctly refused",
+    "status": "refused",
+    "result": null,
+    "attempts": 1
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "question": "How many refunds are larger than the amount of the order they refer to?",
+  "status": "answered",
+  "result": 4,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders",
+    "Excluded 2 refunds because the order amount was missing"
+  ],
+  "code_file": "outputs\\q9.py",
+  "attempts": 1
+}

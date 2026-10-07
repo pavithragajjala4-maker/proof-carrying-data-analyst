@@ -1,0 +1,14 @@
+{
+  "id": 6,
+  "question": "What was the total revenue from USD orders?",
+  "status": "answered",
+  "result": 56254.85,
+  "reason": "",
+  "assumptions": [
+    "Dropped 15 exact duplicate rows from orders.csv",
+    "Excluded 12 rows with missing amount values",
+    "Summed only rows where currency == 'USD'; other currencies are ignored as per the question"
+  ],
+  "code_file": "outputs\\q6.py",
+  "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+  "id": 11,
+  "question": "How many distinct orders were placed in March 2026?",
+  "status": "answered",
+  "result": 80,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders.csv.",
+    "Parsed 'order_date' using two explicit formats: '%Y-%m-%d' for ISO dates and '%d/%m/%Y' for DD/MM/YYYY dates.",
+    "Rows with unparsable dates (if any) are excluded from the March 2026 count.",
+    "Counted distinct order_id values after duplicate removal."
+  ],
+  "code_file": "outputs\\q11.py",
+  "attempts": 1
+}

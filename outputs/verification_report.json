@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "verdict": "PASS",
+    "detail": "re-run gave 112",
+    "code_file": "outputs\\q1.py"
+  },
+  {
+    "id": 2,
+    "verdict": "PASS",
+    "detail": "re-run gave 400",
+    "code_file": "outputs\\q2.py"
+  },
+  {
+    "id": 3,
+    "verdict": "PASS",
+    "detail": "re-run gave 120",
+    "code_file": "outputs\\q3.py"
+  },
+  {
+    "id": 4,
+    "verdict": "PASS",
+    "detail": "re-run gave 43",
+    "code_file": "outputs\\q4.py"
+  },
+  {
+    "id": 5,
+    "verdict": "PASS",
+    "detail": "re-run gave 290",
+    "code_file": "outputs\\q5.py"
+  },
+  {
+    "id": 6,
+    "verdict": "PASS",
+    "detail": "re-run gave 56254.85",
+    "code_file": "outputs\\q6.py"
+  },
+  {
+    "id": 7,
+    "verdict": "PASS",
+    "detail": "re-run gave 25",
+    "code_file": "outputs\\q7.py"
+  },
+  {
+    "id": 8,
+    "verdict": "PASS",
+    "detail": "re-run gave 12",
+    "code_file": "outputs\\q8.py"
+  },
+  {
+    "id": 9,
+    "verdict": "PASS",
+    "detail": "re-run gave 4",
+    "code_file": "outputs\\q9.py"
+  },
+  {
+    "id": 10,
+    "verdict": "PASS",
+    "detail": "re-run gave 4335.24",
+    "code_file": "outputs\\q10.py"
+  },
+  {
+    "id": 11,
+    "verdict": "PASS",
+    "detail": "re-run gave 80",
+    "code_file": "outputs\\q11.py"
+  },
+  {
+    "id": "adhoc",
+    "verdict": "PASS",
+    "detail": "re-run gave 112",
+    "code_file": "outputs\\qadhoc.py"
+  }
+]

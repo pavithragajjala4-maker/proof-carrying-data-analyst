@@ -1,0 +1,13 @@
+{
+  "id": 8,
+  "question": "How many orders have a missing amount?",
+  "status": "answered",
+  "result": 12,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders before any analysis (drop_duplicates).",
+    "Missing amounts are represented as NaN; they are counted but not used in any aggregation."
+  ],
+  "code_file": "outputs\\q8.py",
+  "attempts": 1
+}

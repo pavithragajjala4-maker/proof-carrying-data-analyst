@@ -1,0 +1,10 @@
+{
+  "id": 15,
+  "question": "Which product category generated the most orders?",
+  "status": "refused",
+  "result": null,
+  "reason": "The tables do not contain a product category column, so it is impossible to identify which product category generated the most orders.",
+  "assumptions": [],
+  "code_file": null,
+  "attempts": 1
+}

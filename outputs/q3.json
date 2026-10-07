@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "question": "How many customers are in the customers table?",
+  "status": "answered",
+  "result": 120,
+  "reason": "",
+  "assumptions": [
+    "Applied drop_duplicates() on customers table (0 duplicates found).",
+    "Counted distinct customer_id values to determine number of customers.",
+    "Missing values in other columns do not affect the customer count."
+  ],
+  "code_file": "outputs\\q3.py",
+  "attempts": 1
+}

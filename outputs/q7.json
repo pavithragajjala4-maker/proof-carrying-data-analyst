@@ -1,0 +1,13 @@
+{
+  "id": 7,
+  "question": "How many customers are from India?",
+  "status": "answered",
+  "result": 25,
+  "reason": "",
+  "assumptions": [
+    "Dropped 8 rows with missing country values.",
+    "Parsed signup_date with format='%Y-%m-%d'."
+  ],
+  "code_file": "outputs\\q7.py",
+  "attempts": 1
+}

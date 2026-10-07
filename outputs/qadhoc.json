@@ -1,0 +1,15 @@
+{
+  "id": "adhoc",
+  "question": "How many unique customers placed at least one order?",
+  "status": "answered",
+  "result": 112,
+  "reason": "",
+  "assumptions": [
+    "Duplicate order rows are removed based on 'order_id'.",
+    "Rows with missing 'customer_id' in orders are excluded (none expected).",
+    "Date columns are not needed for this calculation, so no parsing is performed.",
+    "Currency differences do not affect counting unique customers."
+  ],
+  "code_file": "outputs\\qadhoc.py",
+  "attempts": 1
+}

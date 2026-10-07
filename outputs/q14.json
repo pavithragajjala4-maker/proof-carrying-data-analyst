@@ -1,0 +1,10 @@
+{
+  "id": 14,
+  "question": "What was the profit margin last quarter?",
+  "status": "refused",
+  "result": null,
+  "reason": "The data lacks any cost or profit information needed to calculate a profit margin; only order amounts and refunds are available.",
+  "assumptions": [],
+  "code_file": null,
+  "attempts": 1
+}

@@ -1,0 +1,10 @@
+{
+  "id": 12,
+  "question": "What was the total revenue by region?",
+  "status": "refused",
+  "result": null,
+  "reason": "The data does not contain a \"region\" column or any mapping from countries to regions, so revenue cannot be aggregated by region.",
+  "assumptions": [],
+  "code_file": null,
+  "attempts": 1
+}

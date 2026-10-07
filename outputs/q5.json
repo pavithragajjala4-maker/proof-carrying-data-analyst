@@ -1,0 +1,14 @@
+{
+  "id": 5,
+  "question": "How many distinct orders were placed in USD?",
+  "status": "answered",
+  "result": 290,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders.csv using drop_duplicates().",
+    "Filtered rows where currency == 'USD' to count USD orders.",
+    "Counted distinct order_id values after duplicate removal."
+  ],
+  "code_file": "outputs\\q5.py",
+  "attempts": 1
+}

@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "question": "How many unique customers placed at least one order?",
+  "status": "answered",
+  "result": 112,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders.csv using drop_duplicates()",
+    "All customer_id values in orders.csv match those in customers.csv (no unmatched keys)",
+    "Missing values in 'amount' are ignored for this count (they do not affect customer IDs)"
+  ],
+  "code_file": "outputs\\q1.py",
+  "attempts": 1
+}

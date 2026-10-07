@@ -1,0 +1,15 @@
+{
+  "id": 10,
+  "question": "What is the total refund amount for refunds on USD orders?",
+  "status": "answered",
+  "result": 4335.24,
+  "reason": "",
+  "assumptions": [
+    "Removed 15 exact duplicate rows from orders with drop_duplicates().",
+    "Excluded 3 refunds that have no matching order_id in orders (inner join).",
+    "No missing values in refund_amount, so all rows are included in the sum.",
+    "Currency column contains both USD and EUR; we filter to USD only as requested."
+  ],
+  "code_file": "outputs\\q10.py",
+  "attempts": 1
+}

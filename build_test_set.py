@@ -13,6 +13,7 @@ Question types:
   refuse   - no reliable answer exists; the agent must decline and say why
 """
 import json
+import re
 
 import pandas as pd
 
@@ -22,9 +23,17 @@ refunds = pd.read_csv("data/refunds.csv")
 
 # ---- trusted cleaning used ONLY to compute ground truth ----
 orders = orders_raw.drop_duplicates().copy()  # exact duplicate rows removed
-orders["order_date_parsed"] = pd.to_datetime(
-    orders["order_date"], format="mixed", dayfirst=True
-)  # slash dates in this dataset are DD/MM/YYYY (rows with day>12 prove it)
+
+
+def _parse(s: str) -> pd.Timestamp:
+    # Parse each format EXPLICITLY. (dayfirst=True would wrongly swap ISO dates
+    # such as 2026-03-04 into April 3rd on some pandas versions.)
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
+        return pd.to_datetime(s, format="%Y-%m-%d")
+    return pd.to_datetime(s, format="%d/%m/%Y")  # slash dates here are DD/MM/YYYY
+
+
+orders["order_date_parsed"] = orders["order_date"].map(_parse)
 
 usd = orders[orders["currency"] == "USD"]
 

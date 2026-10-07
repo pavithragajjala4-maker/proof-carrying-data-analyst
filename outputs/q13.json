@@ -1,0 +1,10 @@
+{
+  "id": 13,
+  "question": "What was the overall total revenue in USD across all orders?",
+  "status": "refused",
+  "result": null,
+  "reason": "The request asks for a total revenue expressed entirely in USD, but the orders data includes amounts in both USD and EUR and no exchange\u2011rate information is available to convert EUR amounts to USD.",
+  "assumptions": [],
+  "code_file": null,
+  "attempts": 1
+}

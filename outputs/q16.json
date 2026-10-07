@@ -1,0 +1,10 @@
+{
+  "id": 16,
+  "question": "What is the total amount spent by customer C0500?",
+  "status": "refused",
+  "result": null,
+  "reason": "Customer ID C0500 does not exist in the customers table (customer_id values range from C0001 to C0120).",
+  "assumptions": [],
+  "code_file": null,
+  "attempts": 1
+}
