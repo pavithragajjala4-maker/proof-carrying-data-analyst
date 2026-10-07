@@ -182,6 +182,7 @@ def refusal_reason(reply: str):
 # -------------------------------------------------------------------- agent
 def answer(question: str, qid="adhoc", llm=call_llm) -> dict:
     OUT_DIR.mkdir(exist_ok=True)
+    (OUT_DIR / f"q{qid}.py").unlink(missing_ok=True)  # drop any stale proof from an earlier run
     messages = [{"role": "user",
                  "content": f"TABLES\n{schema_summary()}\n\nQUESTION: {question}"}]
     record = {"id": qid, "question": question, "status": "error", "result": None,
